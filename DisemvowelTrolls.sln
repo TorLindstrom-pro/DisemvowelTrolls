@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisemvowelTrolls", "DisemvowelTrolls\DisemvowelTrolls.csproj", "{3FB88402-9119-4290-B230-3E39E8795697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTest", "NTest\NTest.csproj", "{88DD47B3-4E82-401B-8D6D-A4C9FD9DB2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTest", "XTest\XTest.csproj", "{FCBADA97-5D47-4F5C-8510-48C23B6425FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB88402-9119-4290-B230-3E39E8795697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB88402-9119-4290-B230-3E39E8795697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB88402-9119-4290-B230-3E39E8795697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB88402-9119-4290-B230-3E39E8795697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DD47B3-4E82-401B-8D6D-A4C9FD9DB2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DD47B3-4E82-401B-8D6D-A4C9FD9DB2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DD47B3-4E82-401B-8D6D-A4C9FD9DB2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DD47B3-4E82-401B-8D6D-A4C9FD9DB2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBADA97-5D47-4F5C-8510-48C23B6425FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBADA97-5D47-4F5C-8510-48C23B6425FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBADA97-5D47-4F5C-8510-48C23B6425FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBADA97-5D47-4F5C-8510-48C23B6425FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
