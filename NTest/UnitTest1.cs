@@ -1,15 +1,13 @@
+using DisemvowelTrolls;
+
 namespace NTest;
 
 public class Tests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
-
     [Test]
-    public void Test1()
+    public void InputIsOnlyConsonants_ReturnsInput()
     {
-        Assert.Pass();
+        var result = Kata.Disemvowel("qwrt");
+        Assert.That(result, Is.EqualTo("qwrt"));
     }
 }
