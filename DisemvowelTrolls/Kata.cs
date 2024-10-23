@@ -4,8 +4,5 @@ namespace DisemvowelTrolls;
 
 public class Kata
 {
-	public static string Disemvowel(string str)
-	{
-		return string.Concat(str.Where(c => !"aeiou".Contains(char.ToLower(c))));
-	}
+	public static string Disemvowel(string str) => string.Concat(str.Where(c => !"aeiou".Contains(char.ToLower(c))));
 }
