@@ -24,4 +24,11 @@ public class Tests
         var result = Kata.Disemvowel("hello");
         Assert.That(result, Is.EqualTo("hll"));
     }
+    
+    [Test]
+    public void UpperCaseVowelsInInput_ReturnsInputWithoutVowels()
+    {
+        var result = Kata.Disemvowel("HELLO");
+        Assert.That(result, Is.EqualTo("HLL"));
+    }
 }

@@ -6,7 +6,7 @@ public class Kata
 	{
 		var vowels = new[]{'a', 'e', 'i', 'o', 'u'};
 		return str
-			.Where(c => !vowels.Contains(c))
+			.Where(c => !vowels.Contains(char.ToLower(c)))
 			.Aggregate("", (result, c) => result + c);
 	}
 }
