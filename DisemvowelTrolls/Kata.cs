@@ -1,4 +1,6 @@
-﻿namespace DisemvowelTrolls;
+﻿using System.Linq;
+
+namespace DisemvowelTrolls;
 
 public class Kata
 {
